@@ -1,17 +1,14 @@
-##Investigación
+Investigación sobre Etiquetas HTML Nuevas
 
-####Investigación sobre Etiquetas HTML Nuevas
-
-#####1. details y summary
-###### ¿Para qué sirven?<p>
+1. details y summary
+¿Para qué sirven?
 details, permite crear un elemento interactivo que puede expandirse o colapsarse para mostrar información adicional.
-
 summary, define el título visible del details, el cual puede ser clickeado para mostrar u ocultar el contenido.
-</p>
-###### ¿Cómo lo apliqué en mi currículum?<p>
+
+¿Cómo lo apliqué en mi currículum?
 Lo usé en la sección de "Experiencia Laboral" para mostrar detalles adicionales sobre los proyectos en los que he trabajado.
-</p>
-###### Ejemplo de código:
+
+Ejemplo de código:
 ```html
 <details>
     <summary>Más detalles sobre mi experiencia en SurExplora</summary>
@@ -24,14 +21,14 @@ Lo usé en la sección de "Experiencia Laboral" para mostrar detalles adicionale
 </details>
 ```
 
-#####2. iframe
-######¿Para qué sirven?<p>
+2. iframe
+¿Para qué sirven?
 Permite incrustar contenido externo dentro de una página web, como videos de YouTube, mapas de Google, o páginas web completas.
-</p>
-######¿Cómo lo apliqué en mi currículum?<p>
+
+¿Cómo lo apliqué en mi currículum?<p>
 Lo utilicé en la sección "Proyectos" para mostrar un video de YouTube relacionado con mi trabajo.
-</p>
-######Ejemplo de código:
+
+Ejemplo de código:
 ```
 <section id="proyecto">
         <h2>Proyectos</h2>
@@ -44,17 +41,15 @@ Lo utilicé en la sección "Proyectos" para mostrar un video de YouTube relacion
     </section>
 ```
 
-#####3. script
-######¿Para qué sirve?<p>
+3. script
+¿Para qué sirve?<p>
 Permite agregar código JavaScript en una página web, ya sea directamente en el documento HTML o mediante archivos externos.
 Se usa para agregar interactividad y mejorar la experiencia del usuario.
 
-</p>
-
-###### ¿Cómo lo apliqué en mi currículum?<p>
+¿Cómo lo apliqué en mi currículum?<p>
 Lo utilicé en el footer para mostrar automáticamente el año actual en los derechos de autor.
-</p>
-###### Ejemplo de código:
+
+Ejemplo de código:
 ```html
 <footer>
     <center>
